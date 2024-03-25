@@ -1,6 +1,6 @@
 # Image Generation Store Prototype 
 
-Instructions: 
+## Instructions for building and running: 
 
 * install Java 21 (or later) and make it your default: `sdk install java 21-graalce` and then run `sdk default java 21-graalce`
 * open a new shell 
@@ -15,3 +15,8 @@ Instructions:
 
 
   
+## Instructions for use 
+
+* see all the prompts in the PostgreSQL instance as an HTML page: `curl http://localhost:8080/prompts.html`
+* see all the prompts in the PostgreSQL instance as a REST endpoint: `curl http://localhost:8080/prompts`
+* add a new record to the DB: `curl -XPOST -dprompt="what does the fox say?" http://localhost:8080/prompts`
