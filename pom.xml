@@ -14,7 +14,7 @@
 	<name>ai-images</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>22</java.version>
+		<java.version>21</java.version>
 		<spring-ai.version>0.8.1</spring-ai.version>
 	</properties>
 	<dependencies>
